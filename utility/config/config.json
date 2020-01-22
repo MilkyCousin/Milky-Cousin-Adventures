@@ -1,0 +1,10 @@
+{
+    "FPS": 60,
+    "UP": 119,
+    "DOWN": 115,
+    "LEFT": 97,
+    "RIGHT": 100,
+    "OPEN_INV": 105,
+    "TAKE_PHOTO": 101,
+    "VOLUME": 0.7
+}

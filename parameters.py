@@ -1,0 +1,39 @@
+import pygame as pg
+
+# PARAMETERS THAT ARE IMMUTABLE BY USER
+
+BOOL = False
+DEATH = False
+SCREENSHOT = False
+
+NEXT_MAP = None
+CURRENT_MAP = None
+
+CURRENT_SONG = None
+
+WIDTH = 480
+HEIGHT = 480
+
+TILESIZE = 16
+
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+
+VELOCITY = 2
+
+# PARAMETERS THAT ARE MUTABLE BY USER
+
+VOLUME = None
+
+FPS = None
+
+UP = None
+DOWN = None
+LEFT = None
+RIGHT = None
+OPEN_INV = None
+TAKE_PHOTO = None
