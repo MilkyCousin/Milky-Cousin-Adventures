@@ -1,0 +1,205 @@
+[
+  {
+    "TYPE": "COMMON",
+    "ITEMS":
+    [
+      {
+        "NAME": "Слабое зелье здоровья",
+        "HP": 25,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": "Восстанавливает запасы здоровья. +25 HP"
+      },
+      {
+        "NAME": "Слабое зелье маны",
+        "HP": 0,
+        "MP": 25,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": "Восстанавливает запасы маны. +25 MP"
+      },
+      {
+        "NAME": "Сосиска в тесте",
+        "HP": 30,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": "Сосика из местной собаки. По сути, есть можно.. +30 HP"
+      },
+      {
+        "NAME": "Магическая соль",
+        "HP": 15,
+        "MP": 25,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": "Как сахар, только пурпурного оттенка. +15 HP +25 MP"
+      },
+      {
+        "NAME": "Булочка с корицей",
+        "HP": 40,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": "Хлебобулочное изделие. +40 HP"
+      },
+      {
+        "NAME": "Булочка с клюквой",
+        "HP": 30,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": "Хлебобулочное изделие.. Вкусное. +30 HP"
+      },
+      {
+        "NAME": "Шоколадные шарики",
+        "HP": 30,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": "Остерегайтесь Сулимы, которая сейчас прибежит и заберёт шарики! +30 HP"
+      },
+      {
+        "NAME": "Круассан с шоколадом",
+        "HP": 35,
+        "MP": 35,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": "Райское наслаждение. +35 HP +35 MP"
+      },
+      {
+        "NAME": "Сникерс",
+        "HP": 20,
+        "MP": 25,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": "РЕКЛАМНАЯ ПАУЗА! +20 HP + 25 MP"
+      }
+    ]
+  },
+  {
+    "TYPE": "RARE",
+    "ITEMS":
+    [
+      {
+        "NAME": "",
+        "HP": 0,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": ""
+      },
+      {
+        "NAME": "",
+        "HP": 0,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": ""
+      },
+      {
+        "NAME": "",
+        "HP": 0,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": ""
+      },
+      {
+        "NAME": "",
+        "HP": 0,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": ""
+      }
+    ]
+  },
+  {
+    "TYPE": "UNIQUE_UPGRADES",
+    "ITEMS":
+    [
+      {
+        "NAME": "Молочный коктейль с черникой",
+        "HP": 0,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": "PLR_ATK ADD 20",
+        "COST": 0,
+        "INFO": ""
+      },
+      {
+        "NAME": "Молоко таинственной бурёнки",
+        "HP": 0,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": "PLR_HPM ADD 50",
+        "COST": 0,
+        "INFO": ""
+      },
+      {
+        "NAME": "Лотос Могущества",
+        "HP": 0,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": "PLR_ATK MULT 1.5",
+        "COST": 0,
+        "INFO": ""
+      },
+      {
+        "NAME": "Клинок первородных потоков",
+        "HP": 0,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": "PLR_ATK MULT 2",
+        "COST": 0,
+        "INFO": ""
+      },
+      {
+        "NAME": "Сапоги путешественника",
+        "HP": 0,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": "PLR_VEL MULT 2",
+        "COST": 0,
+        "INFO": ""
+      },
+      {
+        "NAME": "Сапоги пустотного странника",
+        "HP": 0,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": "PLR_VEL MULT 3",
+        "COST": 0,
+        "INFO": ""
+      }
+    ]
+  },{
+    "TYPE": "FROM_BOSSES",
+    "ITEMS":
+    [
+      {
+        "NAME": "",
+        "HP": 0,
+        "MP": 0,
+        "USE": true,
+        "UNIQUE": null,
+        "COST": 0,
+        "INFO": ""
+      }
+    ]
+  }
+]

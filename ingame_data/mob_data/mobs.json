@@ -1,0 +1,66 @@
+[
+  {
+    "NAME": "Пингвин",
+    "IMG": ["ingame_data", "mob_data", "mob_textures", "background_angry_penguin.gif"],
+    "SPRITE":  ["ingame_data", "mob_data", "mob_textures", "tiles", "tile_angry_penguin.png"],
+    "TIER": 0,
+    "CATCHPHRASE": 
+    [
+      "Жареных гвоздей не желаешь отведать?",
+      "Бубубу, я пингвин",
+      "Все сражаются, а ты говнокодишь"
+    ],
+    "MAXHP": 60,
+    "ATK": 15,
+    "PROB": 0.75,
+    "ID": 0
+  },
+  {
+    "NAME": "Слизень",
+    "IMG": ["ingame_data", "mob_data", "mob_textures", "background_slime.gif"],
+    "SPRITE":  ["ingame_data", "mob_data", "mob_textures", "tiles", "tile_slime.png"],
+    "TIER": 0,
+    "CATCHPHRASE":
+    [
+      "Буль-буль",
+      "Хлюп-хлюп",
+      "Ты написал проект по питону?"
+    ],
+    "MAXHP": 25,
+    "ATK": 8,
+    "PROB": 1,
+    "ID": 1
+  },
+  {
+    "NAME": "Багровый рыцарь",
+    "IMG": ["ingame_data", "mob_data", "mob_textures", "background_crimson_knight.gif"],
+    "SPRITE":  ["ingame_data", "mob_data", "mob_textures", "tiles", "tle_guardian_red.png"],
+    "TIER": 2,
+    "CATCHPHRASE":
+    [
+      "...",
+      "...!",
+      "...!?"
+    ],
+    "MAXHP": 120,
+    "ATK": 20,
+    "PROB": 0.9,
+    "ID": 2
+  },
+  {
+    "NAME": "Тормозноут",
+    "IMG": ["ingame_data", "mob_data", "mob_textures", "background_laptop.gif"],
+    "SPRITE":  ["ingame_data", "mob_data", "mob_textures", "tiles", "tile_laptop.png"],
+    "TIER": 0,
+    "CATCHPHRASE":
+    [
+      "Не буду работать с твоими матрицами!",
+      "1001000101001",
+      "Даниэль, заколебал, поцелуй Алису"
+    ],
+    "MAXHP": 999,
+    "ATK": 1,
+    "PROB": 1,
+    "ID": 3
+  }
+]
