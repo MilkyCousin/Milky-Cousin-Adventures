@@ -119,10 +119,10 @@ class MainMenuWindow:
 
         self.settings_frame.grid(row=1, column=0, rowspan=10, columnspan=8, sticky=EW)
 
-        Label(self.settings_frame, text='Параметры управления:').grid(row=0, column=0, columnspan=8, sticky=EW)
+        Label(self.settings_frame, text='Control settings:').grid(row=0, column=0, columnspan=8, sticky=EW)
 
-        params_list = ['Перемещение вверх', 'Перемещение вниз', 'Перемещение влево', 'Перемещение вправо',
-                       'Открыть инвентарь', 'Сделать снимок экрана']
+        params_list = ['Move upwards', 'Move downwards', 'Move to the left', 'Move to the right',
+                       'Open inventory', 'Take a screenshot']
 
         self.label_box = []
 
@@ -150,7 +150,7 @@ class MainMenuWindow:
 
         self.video_settings_frame.grid(row=11, column=0, rowspan=2, columnspan=8, sticky=EW)
 
-        params_list = ['Кадровая частота']
+        params_list = ['Frames Per Second']
 
         for i, param_name in enumerate(params_list):
             Label(self.video_settings_frame, text=param_name).grid(row=i, column=0, columnspan=4, sticky=NSEW)
@@ -169,7 +169,7 @@ class MainMenuWindow:
 
         self.audio_settings_frame.grid(row=13, column=0, rowspan=2, columnspan=8, sticky=EW)
 
-        params_list = ['Громкость звука']
+        params_list = ['Audio Volume']
 
         for i, param_name in enumerate(params_list):
             Label(self.audio_settings_frame, text=param_name).grid(row=i, column=0, columnspan=4, sticky=NSEW)
@@ -198,7 +198,7 @@ class MainMenuWindow:
 
         self.label_fr.grid(row=0, column=0, columnspan=8, sticky=EW)
 
-        Label(self.label_fr, text="Настройки:", fg="purple", font=("Arial", 12)).grid(row=0, column=0,
+        Label(self.label_fr, text="Settings:", fg="purple", font=("Arial", 12)).grid(row=0, column=0,
                                                                                       columnspan=8, sticky=EW)
 
         self._controls_frame()
@@ -218,7 +218,7 @@ class MainMenuWindow:
         self.scale_video.set(parameters['FPS'])
         self.scale_audio.set(parameters['VOLUME'] * 100)
 
-        Button(self.settings_window, text="Закрыть",
+        Button(self.settings_window, text="Close",
                command=lambda : _s_quit(self,
                                         [self.scale_video.get(),
                                          self.label_box[0]['text']] +     # піймав баг, гыг
