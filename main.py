@@ -240,18 +240,18 @@ class MainMenuWindow:
 
             text_widget.configure(state=NORMAL)
 
-            text_widget.insert('1.0', open(os.path.join(os.getcwd(), 'misc', 'guide.txt'), 'r').read())
+            #text_widget.insert('1.0', open(os.path.join(os.getcwd(), 'misc', 'guide.txt'), 'r', encoding='utf-8').read())
             text_widget.insert('1.0', codecs.open(os.path.join(os.getcwd(), 'misc', 'guide.txt'),
                                                   "r",
                                                   "utf_8_sig").read())
 
             text_widget.configure(state=DISABLED)
 
-        Label(guide_window, text="Руководство по игре", fg="purple", font=("Arial", 12)).pack(fill='x')
+        Label(guide_window, text="Game Manual", fg="purple", font=("Arial", 12)).pack(fill='x')
 
         scrollbar = Scrollbar(guide_window)
 
-        Button(guide_window, text="Закрыть", command=_g_quit).pack(side='bottom', padx=5, pady=2, fill='x')
+        Button(guide_window, text="Quit", command=_g_quit).pack(side='bottom', padx=5, pady=2, fill='x')
 
         scrollbar.pack(side=RIGHT, fill='y')
 
@@ -270,16 +270,16 @@ class MainMenuWindow:
     def _set_widgets(self):
 
         for elements in [["Milky Cousin Adventures", "purple", ("Arial", 16), "top"],
-                         ["от danielthehuman с любовью", "black", ("Arial", 8), "bottom"]]:
+                         ["with love from danielthehuman", "black", ("Arial", 8), "bottom"]]:
 
             Label(self._master, text=elements[0], fg=elements[1], font=elements[2]).pack(fill='x',
                                                                                          side=elements[3])
 
-        for elements in [["Начать игру",self._init_game, "top"],
-                      ["Настройки",self._settings, "top"],
-                      ["Руководство по игре", self._guide, "top"],
-                      ["Выход из игры", self._quit, "bottom"],
-                      ["Посетить сайт разработчика", self._goto_web, "bottom"]]:
+        for elements in [["Start Game",self._init_game, "top"],
+                      ["Settings",self._settings, "top"],
+                      ["Game Manual", self._guide, "top"],
+                      ["Quit", self._quit, "bottom"],
+                      ["Visit developer's website", self._goto_web, "bottom"]]:
 
             Button(self._master, text=elements[0], command=elements[1]).pack(side=elements[2], padx=5, pady=2, fill='x')
 
