@@ -1,8 +1,12 @@
 # Milky-Cousin-Adventures
 
+How about some magic, combined with linear algebra and penguins?
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/45886410/173920445-09f3a94a-4a03-4455-af72-ea479dce0351.gif)
+
 ## English version
 
-badly written tile-based game in python.
+In progress.. Brifly, it is badly written tile-based game in python.
 
 ## Ukrainian version
 
