@@ -677,7 +677,7 @@ class MapProcessor:
         parameters_script.CURRENT_MAP = self._name
 
         self._text_values = open(os.path.join(os.getcwd(), 'ingame_data', 'maps', self._name[:-1], self._name + '.txt'),
-                                 'r').readlines()
+                                 'r', encoding='utf-8').readlines()
 
         self._wb = openpyxl.load_workbook(path)
 
