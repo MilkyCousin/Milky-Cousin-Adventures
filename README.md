@@ -33,7 +33,13 @@ In progress.. Briefly, it is badly written tile-based game in python.
   <img src=https://user-images.githubusercontent.com/45886410/173922352-53b5cf79-e406-44b6-b5b2-6ef2cc2af09e.png>
 </p>
 
-- lssss
+- **Game Manual** -- короткі відомості про гру: про що вона, що треба робити та навіщо. У двох словах описана загальна техніка бою з містичними створіннями.
+
+<p align="center">
+  <img src=https://user-images.githubusercontent.com/45886410/173926557-7672abc4-85a3-45f6-ba15-97c29c604c18.gif alt="animated">
+</p>
+
+- **Visit developer's website** -- посилає користувача на сторінку (https://milkycousin.pythonanywhere.com/) з короткими розповідями від розробника, на основі яких *безспосередньо* "основана" сама гра.
 
 
 sss
